@@ -2,5 +2,5 @@
 
 interface AbstractMotorcycles
 {
-    public function usefulAbstractMotorcycles(): string;
+    public function usingAbstractMotorcycles(): string;
 }

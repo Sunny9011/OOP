@@ -2,7 +2,7 @@
 
 abstract class makeBicycle implements AbstractBicycle
 {
-    public function usefulAbstractBicycles(): string
+    public function usingAbstractBicycles(): string
     {
         return "This is a Bicycle!";
         // TODO: Implement usefulCreateCars() method.

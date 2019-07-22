@@ -1,8 +1,8 @@
 <?php
 
-class commonElements
+class intersectingElements
 {
-    public function searchForCommonItems($array1, $array2)
+    public function searchForIntersectingItems($array1, $array2)
     {
         $result = '';
         foreach ($array1 as $value) {
@@ -17,5 +17,5 @@ class commonElements
 }
 $array2 = array(2,3,4,4);
 $array1 = array(2,1,5,7,3);
-$test = new commonElements();
- echo $test->searchForCommonItems($array1, $array2);
+$objIntersectingElements = new intersectingElements();
+ echo $objIntersectingElements->searchForIntersectingItems($array1, $array2);

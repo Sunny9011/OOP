@@ -1,7 +1,7 @@
 <?php
 
 
-abstract class creationOfTransport implements interfaceFactory
+abstract class creationOfTransport implements TransportFactory
 {
     public function createCars(): AbstractCars
     {

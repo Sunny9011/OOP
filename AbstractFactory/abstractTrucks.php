@@ -2,5 +2,5 @@
 
 interface AbstractTrucks
 {
-    public function usefulAbstractTrucks(): string;
+    public function usingAbstractTrucks(): string;
 }

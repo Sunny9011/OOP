@@ -2,5 +2,5 @@
 
 interface AbstractCar
 {
-    public function usefulCreateCars(): string;
+    public function usingCreateCars(): string;
 }

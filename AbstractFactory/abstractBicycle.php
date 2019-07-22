@@ -2,5 +2,5 @@
 
 interface AbstractBicycle
 {
-    public function usefulAbstractBicycles(): string;
+    public function usingAbstractBicycles(): string;
 }

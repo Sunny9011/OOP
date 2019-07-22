@@ -5,14 +5,16 @@ class onlyEven
     public function evenElements($array)
     {
         $result = 0;
+        $arr  = [];
         foreach ($array as $value) {
             if ($value % 2 == 0) {
-                echo $value . '<br>';
+               $arr [] = $value;
             }
         }
+        return $arr;
     }
 }
 
-$test = new onlyEven();
+$objOnlyEven = new onlyEven();
 $testArray = array(2, 5, 6, 8, 3, 10, 7);
-$test->evenElements($testArray);
+ print_r($objOnlyEven->evenElements($testArray));
