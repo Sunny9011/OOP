@@ -36,7 +36,21 @@ class work
     public function getLeadState()
     {
         if ($this->getMoodLead() == 'The state "do not fall for eyes"!' && $this->getWorkJun() == 'Good work!') {
-            return 'Bad state!';
+            return 'i\'m okey';
+        } elseif ($this->getMoodLead() == 'Bad mood' && $this->getWorkJun() == 'Good work!') {
+            return 'Nice';
+        } elseif ($this->getMoodLead() == 'Normal mood' && $this->getWorkJun() == 'Good work!') {
+            return 'Great!';
+        } elseif ($this->getMoodLead() == 'Good mood :)' && $this->getWorkJun() == 'Good work!') {
+            return 'Good boy';
+        } elseif ($this->getMoodLead() == 'The state "do not fall for eyes"!' && $this->getWorkJun() == 'Bad work!') {
+            return 'Run jun RUN!';
+        } elseif ($this->getMoodLead() == 'Bad mood' && $this->getWorkJun() == 'Bad work!') {
+            return 'Run jun';
+        } elseif ($this->getMoodLead() == 'Normal mood' && $this->getWorkJun() == 'Bad work!') {
+            return 'Bad fun';
+        } elseif ($this->getMoodLead() == 'Good mood :)' && $this->getWorkJun() == 'Bad work!') {
+            return 'oh jun';
         }
     }
 }
